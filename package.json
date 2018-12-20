@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node api.js",
+    "start": "DEBUG=test_api node api.js",
     "development": "DEBUG=test_api node_modules/.bin/nodemon api.js"
   },
   "keywords": [],
