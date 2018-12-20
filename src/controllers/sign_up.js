@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const { userDataValidator, setIdType } = require("../services/validator");
-const { JWT_SECRET } = require("../config/env");
+const { JWT_SECRET } = require("../../config/env");
 const UserModel = require("../db/schema");
 const { alreadyExists } = require("../lib/errors");
 

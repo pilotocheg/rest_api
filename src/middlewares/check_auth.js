@@ -1,5 +1,5 @@
 const jwt = require("express-jwt");
-const { JWT_SECRET } = require("../config/env");
+const { JWT_SECRET } = require("../../config/env");
 const { notFound, unauthorized } = require("../lib/errors");
 const UserModel = require("../db/schema");
 
